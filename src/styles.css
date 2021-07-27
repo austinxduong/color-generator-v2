@@ -1,0 +1,22 @@
+
+.divOuter {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+  }
+  
+  .App {
+    height: 100%;
+    width: 100%;
+  }
+  
+  body {
+    margin: 0px !important;
+    padding: 0px !important;
+    box-sizing: border-box;
+  }
+  
+  .divOuter{
+    cursor: pointer;
+  }
+  
