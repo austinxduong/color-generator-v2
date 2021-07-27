@@ -47,7 +47,7 @@ export default class Color extends Component {
           >
             <h5 style={{ color: "white", cursor: "pointer", margin: "auto 0px" }}>
               {" "}
-              You picked this color, so we copied the hex code for you. Just paste it where you desire ;D!{" "}
+              ;D hey, you picked this color, so we copied the hex code for you! Just paste it where you desire [x CLOSE HERE]{" "}
             </h5>
           </div>
 
