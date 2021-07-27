@@ -41,7 +41,7 @@ export default class Color extends Component {
             style={{
               display: this.state.display ? "" : "none",
               backgroundColor: "black",
-              height: "30px",
+              height: "70px",
               width: "100%"
             }}
           >

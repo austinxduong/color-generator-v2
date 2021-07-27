@@ -19,4 +19,13 @@
   .divOuter{
     cursor: pointer;
   }
-  
+
+  h2 {
+    text-align: center;
+  }
+
+  h5 {
+    text-align: center;
+    padding: 25px;
+    font-size: 15px;
+  }
