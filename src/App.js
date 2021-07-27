@@ -25,7 +25,33 @@ export default class Color extends Component {
       this.setState({ display: false });
     };
 
+    render() {
+      return (
+        <>
+          <div
+            onClick={this.clickHideHandler}
+            style={{
+              display: this.state.display ? "" : "none",
+              backgroundColor: "black",
+              height: "30px",
+              width: "100%"
+            }}
+          >
+            <h5 style={{ color:"white", cursor: "pointer", margin: "auto 0px" }}>
+              {" "}
+              You picked this color, so we copied the hex code for you. Just paste it!{" "}
+            </h5>
+          </div>
 
-
-
+          <div className="divOuter">
+            onclick={this.clickHandler}
+            style={{
+              backgroundColor: this.state.bgColor
+            }}
+            />
+          </div>
+        </>
+      )
+    };
 }
+
