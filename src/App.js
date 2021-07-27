@@ -16,6 +16,15 @@ export default class Color extends Component {
         };
     }
 
+    clickHandler = (event) => {
+      copy(this.state.bgColor);
+      this.setState({ display: true });
+    }
+
+    clickHideHandler = (event) => {
+      this.setState({ display: false });
+    };
+
 
 
 
