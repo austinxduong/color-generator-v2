@@ -47,13 +47,13 @@ export default class Color extends Component {
           >
             <h5 style={{ color: "white", cursor: "pointer", margin: "auto 0px" }}>
               {" "}
-              You picked this color, so we copied the hex code for you. Just paste it!{" "}
+              You picked this color, so we copied the hex code for you. Just paste it where you desire ;D!{" "}
             </h5>
           </div>
 
           <div className="divOuter">
             <div
-              onclick={this.clickHandler}
+              onClick={this.clickHandler}
               style={{
                 backgroundColor: this.state.bgColor
               }}
