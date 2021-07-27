@@ -25,6 +25,13 @@ export default class Color extends Component {
       this.setState({ display: false });
     };
 
+    MouseHover = (e) => {
+      let color = randomColor();
+      this.setState({
+        bgColor: color
+      });
+    }
+
     render() {
       return (
         <>
@@ -44,14 +51,17 @@ export default class Color extends Component {
           </div>
 
           <div className="divOuter">
-            onclick={this.clickHandler}
-            style={{
-              backgroundColor: this.state.bgColor
-            }}
+            <div
+              onclick={this.clickHandler}
+              style={{
+                backgroundColor: this.state.bgColor
+              }}
+              onMouseMove={this.MouseHover}
+              className="App"
             />
           </div>
         </>
       )
     };
-}
+  }
 
